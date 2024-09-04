@@ -1,0 +1,92 @@
+1. HTML Structure
+1.1. <!DOCTYPE html>
+Defines the document type and version of HTML used.
+
+1.2. <html lang="en">
+Specifies the language of the document as English.
+
+1.3. <head>
+Contains metadata about the document:
+
+<meta charset="UTF-8">: Sets the character encoding.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Ensures the site is responsive on all devices.
+<title>WristMaster</title>: Sets the title of the web page.
+<link rel="stylesheet" href="style.css">: Links the external CSS file for styling.
+1.4. <body>
+Contains the main content of the website, structured into various sections.
+
+1.4.1. Navigation Section (<nav>)
+This section includes:
+
+A logo and navigation links for "Home," "Product," and "Store."
+A promotional banner highlighting the "New Watch Collection 2024" with a brief description and pricing.
+Buttons for "Discover" and "Add to Cart."
+1.4.2. Feature Section (<section>)
+Showcases featured products with images, names, prices, and an "Add to Cart" button. Each product has a "SALE" tag displayed.
+
+1.4.3. Story Section (<section>)
+Presents the brand's story with an image and text detailing the inspiration behind the watch collection.
+
+1.4.4. New Arrivals Section (<section>)
+Highlights new products with images, names, prices, and an "Add to Cart" button.
+
+1.4.5. Customer Review Section (<section>)
+Features a customer review with text and an image of the reviewer, along with their name and occupation.
+
+1.4.6. Subscription Section (<section>)
+Encourages users to subscribe to the newsletter, providing updates on new arrivals, offers, and more.
+
+1.4.7. Footer Section (<footer>)
+Contains links to various informational and support pages, such as "Return Policy," "Privacy Policy," "About Us," and "Product Help." Also includes copyright information.
+
+
+
+
+
+
+
+
+
+
+2. CSS Structure
+2.1. Root Variables (:root)
+Defines global variables for primary colors, text colors, and maximum width.
+
+2.2. Global Styling (*, body)
+Applies default margin, padding, box-sizing, and font family across the entire site.
+
+2.3. Navigation Section Styling (.nav_part, .nav_section, etc.)
+Styles the navigation section, including:
+
+Layout and alignment of the logo, navigation links, and content.
+Styling for the promotional banner, including font sizes and colors.
+Button styling with hover effects.
+2.4. Feature Section Styling (.feature_part, .feature_section, etc.)
+Styles the feature section, focusing on:
+
+Layout of featured products.
+Hover effects on product cards.
+2.5. Story Section Styling (.story_section, .story_image, .story_text)
+Styles the story section, including:
+
+Image alignment with box-shadow effects.
+Text layout and button styling.
+2.6. New Arrivals Section Styling (.new_arrivals_part, .new_arrivals_section, etc.)
+Styles the new arrivals section, including:
+
+Product card layout with hover effects.
+Consistent sizing and spacing for images and text.
+2.7. Customer Review Section Styling (.customer_review_part, .customer_review_section, etc.)
+Styles the customer review section, focusing on:
+
+Text layout with line spacing and word spacing.
+Reviewer details with an image and personal information.
+2.8. Subscription Section Styling (.subscribe_part, .subscribe_section, etc.)
+Styles the subscription section, focusing on:
+
+Text alignment and button styling.
+2.9. Footer Section Styling (.footer_part, .footer_section, etc.)
+Styles the footer, including:
+
+Layout of footer links in different sections.
+Copyright text styling.
